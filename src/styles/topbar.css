@@ -1,0 +1,68 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: white;
+    background-color: #f0f0f0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 5px 20px;
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+.brand-name {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-initials {
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.user-name {
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.dropdown {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown option {
+    background-color: #007bff;
+    color: white;
+}
